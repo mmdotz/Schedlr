@@ -8,7 +8,7 @@ var Search = React.createClass({
     getInitialState: function() {
       return {
         rooms: this.props.rooms,
-        search: ' '
+        search: ''
       };
     },
 
@@ -28,8 +28,11 @@ var Search = React.createClass({
           <p>
             <input className='form-control' type='text'
               onChange={this.handleChange} value={this.state.search}
-              placeHolder='search rooms' />
+              placeholder='search rooms' />
           </p>
+          {this.state.rooms.map(function (room) {
+            return (room.name);
+          })}
         </section>
     );
   }
