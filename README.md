@@ -5,6 +5,8 @@
 
 ## Description
 
+Schedlr is a room-scheduling application that allows users to create and invite others to meetings, block off a time frame for use of a room and choose meetings to attend. To view the live application, navigate to [Schedlr](https://rustworks-schedlr.herokuapp.com)
+
 
 ## Steps to get working locally
 
@@ -106,5 +108,3 @@ You'll see:
 ...and that's all, folks
 
 Simply put, AWS is for finished production code. It's NOT a developer tool. In my next installment, I'll discuss the use of SSH to pull code updates from  Git. (The `eb deploy` command of the CLI is iffy, at best.)
-
-## Notable tech used
